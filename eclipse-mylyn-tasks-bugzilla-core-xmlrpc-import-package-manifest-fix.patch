@@ -1,0 +1,14 @@
+### Eclipse Workspace Patch 1.0
+#P org.eclipse.mylyn.bugzilla.core
+Index: META-INF/MANIFEST.MF
+===================================================================
+RCS file: /cvsroot/mylyn/org.eclipse.mylyn.tasks/org.eclipse.mylyn.bugzilla.core/META-INF/MANIFEST.MF,v
+retrieving revision 1.380
+diff -u -r1.380 MANIFEST.MF
+--- org.eclipse.mylyn.bugzilla.core/META-INF/MANIFEST.MF	26 Jun 2010 07:37:04 -0000	1.380
++++ org.eclipse.mylyn.bugzilla.core/META-INF/MANIFEST.MF	15 Apr 2011 20:33:44 -0000
+@@ -19,3 +19,4 @@
+  org.eclipse.mylyn.internal.bugzilla.core.service;x-internal:=true
+ Bundle-RequiredExecutionEnvironment: J2SE-1.5
+ Bundle-Localization: plugin
++Import-Package: org.apache.xmlrpc
