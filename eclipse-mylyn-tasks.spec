@@ -10,7 +10,7 @@ Version: 3.5.1
 Group:	Development/Java
 Release: 4
 License: EPL
-URL: http://www.eclipse.org/mylyn/tasks
+URL: https://www.eclipse.org/mylyn/tasks
 
 # bash fetch-eclipse-mylyn-tasks.sh
 Source0: eclipse-mylyn-tasks-R_3_5_1-fetched-src.tar.bz2
